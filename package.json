@@ -1,0 +1,25 @@
+{
+  "name": "react-scripts",
+  "version": "3.0.1",
+  "description": "An alias for forked  react-scripts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinoadr/react-scripts.git"
+  },
+  "author": "Adrien Gautier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kinoadr/react-scripts/issues"
+  },
+  "homepage": "https://github.com/kinoadr/react-scripts#readme",
+  "dependencies": {
+    "create-react-app": "git+https://git@github.com/kinoadr/create-react-app.git#custom-workbox-config"
+  },
+  "bin": {
+    "react-scripts": "./node_modules/create-react-app/packages/react-scripts/bin/react-scripts.js"
+  }
+}
